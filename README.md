@@ -15,7 +15,7 @@ Version: webpack 4.42.0
 Time: 70ms
 Built at: 03/17/2020 3:00:34 PM
 
-ERROR in Entry module not found: Error: Can't resolve '/Users/bens/git-repos/webpack-demo/src/index?.js' in '/Users/bens/git-repos/webpack-demo'
+ERROR in Entry module not found: Error: Can't resolve '<personal path>/webpack-demo/src/index?.js' in '<personal path>/webpack-demo'
 ```
 
 ## My Environment
