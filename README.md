@@ -1,4 +1,8 @@
-Reproduce issue with special character in file name
+# Issue With Question Mark Character (`?`) in File Name
+
+Instructions and my environment
+
+## Reproduce
 
 ```
 $ npx webpack --mode=production src/index\?.js
@@ -12,4 +16,23 @@ Time: 70ms
 Built at: 03/17/2020 3:00:34 PM
 
 ERROR in Entry module not found: Error: Can't resolve '/Users/bens/git-repos/webpack-demo/src/index?.js' in '/Users/bens/git-repos/webpack-demo'
+```
+
+## My Environment
+
+```
+system_profiler SPSoftwareDataType
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.15.3 (19D76)
+      Kernel Version: Darwin 19.3.0
+      ...
+```
+
+```
+$ node --version && npm --version
+v10.14.2
+6.13.6
 ```
